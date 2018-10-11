@@ -1,0 +1,10 @@
+@extends('layouts.site')
+@section('head')
+    @include('site.head')
+    @endsection
+@section('menu')
+    @include('site.menu')
+@endsection
+@section('content')
+    @include('site.content')
+    @endsection

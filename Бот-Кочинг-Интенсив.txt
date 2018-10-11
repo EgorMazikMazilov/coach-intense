@@ -1,0 +1,23 @@
+Leeloo init code:
+<!-- wepster init code -->
+    <script>
+    window.leeloo = function(){
+        (function(d, s){
+            var js = d.createElement(s);
+            window.WepsterInit = {
+                service_url: 'https://app.leeloo.ai',
+                short_url: 'https://wep.wf'};
+            js.src = 'https://app.leeloo.ai/init.js';
+            document.getElementsByTagName('head')[0].appendChild(js);
+        }(document, 'script'));
+    };
+    leeloo();
+    </script>
+    <!-- end wepster init code -->
+
+Вставьте этот код непосредственно перед тегом &lt;/body&gt; 
+Добавьте код формы 
+<script>!window.WepsterElements ? window.WepsterElements = ['elnfzk'] :  window.WepsterElements.push('elnfzk');</script>
+
+или
+<div class="wepster-hash-elnfzk"></div>

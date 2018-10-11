@@ -1,0 +1,218 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+    .hd-list-menu a{
+        font-size: 10px;
+    }
+    .header-stick .header-logo a {
+        font-size: 0.8em;
+    }
+    .header-stick .hd-list-menu a{
+        padding-top: 18px
+    }
+    .event-info-col .main-title3 {
+        font-size: 18px;
+    }
+    .event-info-col p{
+        font-size: 13px;
+    }
+    .team-member-find-content p {
+        font-size: 1.3em;
+    }
+    #section-about1 .white-font, #section-about .white-font {
+        font-size: 1.2em;
+    }
+    #blog-itens-container .blog-item-title{
+        font-size: 15px;
+    }
+    #section-prices img {
+        margin-top: -6.6em;
+        margin-left: 1.2em;
+    }
+    #section-prices .col-md-8 p:first-of-type {
+        margin-bottom: 2em;
+    }
+    #section-prices .price_bott_txt{
+        margin-top: 2em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+    .about-text-wrapper{
+        float: none;
+    }
+    .disp_like_table{
+        margin-left: 20%;
+    }
+   #section-about .yellow-font {
+        font-size: 2em;
+       line-height: 1.3em;
+    }
+   .title-section{
+       font-size: 36px;
+   }
+    .schedule-item-title{
+        font-size: 1.5em;
+    }
+    .schedule-item-img{
+        width: 170%;
+    }
+    .schedul_text h3{
+        font-size: 1.5em;
+    }
+    .team-item-picture{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .team-member-find-content{
+        margin-left: 25%;
+        font-size: 0.8em;
+    }
+    .section-team{
+        background-size: cover;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        padding: 0.5em;
+        margin: 0 -5% 0 -5%;
+        font-size: 0.9em;
+    }
+    .blog-item {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .section-about .default_t{
+        padding-top: 1.2em;
+    }
+    #section-about2 .disp_like_table {
+        margin-left: -10%;
+    }
+    .price-ticket-item:hover .price-ticket-item-wrapper, .price-ticket-item.hover .price-ticket-item-wrapper {
+        transform: none;
+    }
+    .list-unstyled1 li {
+        font-size: 1.5em;
+        font-weight: 600;
+        list-style-type: none;
+    }
+    #section-prices .col-sm-12 p{
+        text-align: center;
+    }
+    .date_and_place .disp_like_table {
+        margin-left: 0;
+    }
+    #footer .footer_organisators, #footer .footer_social, #footer img, #footer i, #footer .dev_logo{
+        transform: skewX(0deg);
+    }
+    #footer .text-right, #footer .text-left{
+        margin-top: 1em;
+    }
+    #footer .dev_logo{
+        margin-top: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .intro-content .btn{
+        min-width: 50%;
+    }
+    .title-section {
+        font-size: 26px;
+    }
+    .disp_like_table {
+        margin-left: 0;
+    }
+    .schedule-item-title {
+        font-size: 1.3em;
+    }
+    .schedul_text h3 {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+    #section-about .yellow-font, #section-about1 .yellow-font {
+        font-size: 1.5em;
+        line-height: 1.1em;
+    }
+    .team-member-find-content {
+        margin-left: 5%;
+        font-size: 0.8em;
+    }
+    .team-item-title {
+        font-size: 1em;
+    }
+    #section-about2 .disp_like_table {
+        margin-left: 5%;
+    }
+    .section-register .scope_text{
+        font-size: 0.9em;
+    }
+    .section-register .scope_icon{
+        font-size: 2.3em;
+    }
+    .team-item-picture{
+        display: none;
+    }
+    .owl-buttons{
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+    .section-sponsors img {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .title-section {
+        font-size: 22px;
+    }
+    #section-about .yellow-font, #section-about1 .yellow-font {
+        font-size: 1.1em;
+        line-height: 1.1em;
+        text-transform: uppercase;
+    }
+    .schedule-item-title {
+        font-size: 1.1em;
+    }
+    .schedule-item-content{
+        min-height: 100px;
+    }
+    .col-md-12 .schedul_icon img{
+        display: none;
+    }
+    .disNo, .team-item-picture, .owl-buttons{
+        display: none;
+    }
+    .team-item-title {
+        font-size: 0.9em;
+    }
+    #section-about1 .font-30, #section-about .font-30{
+        margin-top: 0.6em;
+        font-size: 1em;
+    }
+    .testimonial-content{
+        padding: 10px;
+    }
+    .blog-item {
+        width: 100%;
+    }
+    #section-about2 .red-font{
+        font-size: 18px;
+    }
+    .section-about .default_t, .section-about .blue2-font, #section-about .red-font {
+        font-size: 18px;
+    }
+    .section-prices .red-font{
+        font-size: 18px;
+    }
+    .list-unstyled1 li {
+        font-size: 1.1em;
+        margin-bottom: .5em;
+        font-weight: 600;
+        list-style-type: none;
+    }
+    .date_and_place{
+        display: none;
+    }
+
+}
